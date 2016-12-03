@@ -272,7 +272,7 @@ namespace Disk.SDK.Utils {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ([a-zA-Z0-9]){32}.
+        ///   Looks up a localized string similar to ([a-zA-Z0-9]){32,}.
         /// </summary>
         internal static string TokenRegexPattern {
             get {
